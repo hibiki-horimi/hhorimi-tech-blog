@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="経緯 先日同僚の方にhugoで簡単なブログの作成と公開の方法を紹介してもらいました。
 せっかくなので作成
-やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 Host on GitHubを参考にGithub Action Workflowを使ってデプロイ  ">
+やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 config.tomlファイルにpublishDir = &#39;docs&#39;を追加 hugoコマンドを実行し、静的ファイルを出力 リモートにプッシュ GithubのSettings&gt;Pages&gt;Sourceからデプロイするブランチにはを選択  ">
     <meta name="generator" content="Hugo 0.92.1" />
     
     
@@ -34,7 +34,7 @@
     <meta property="og:title" content="hugoを使ったブログ作成" />
 <meta property="og:description" content="経緯 先日同僚の方にhugoで簡単なブログの作成と公開の方法を紹介してもらいました。
 せっかくなので作成
-やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 Host on GitHubを参考にGithub Action Workflowを使ってデプロイ  " />
+やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 config.tomlファイルにpublishDir = &#39;docs&#39;を追加 hugoコマンドを実行し、静的ファイルを出力 リモートにプッシュ GithubのSettings&gt;Pages&gt;Sourceからデプロイするブランチにはを選択  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hibiki-horimi.github.io/hhorimi-tech-blog/posts/my-first-post/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-02-06T21:00:00+09:00" />
@@ -43,14 +43,14 @@
 <meta itemprop="name" content="hugoを使ったブログ作成">
 <meta itemprop="description" content="経緯 先日同僚の方にhugoで簡単なブログの作成と公開の方法を紹介してもらいました。
 せっかくなので作成
-やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 Host on GitHubを参考にGithub Action Workflowを使ってデプロイ  "><meta itemprop="datePublished" content="2021-02-06T21:00:00+09:00" />
+やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 config.tomlファイルにpublishDir = &#39;docs&#39;を追加 hugoコマンドを実行し、静的ファイルを出力 リモートにプッシュ GithubのSettings&gt;Pages&gt;Sourceからデプロイするブランチにはを選択  "><meta itemprop="datePublished" content="2021-02-06T21:00:00+09:00" />
 <meta itemprop="dateModified" content="2021-02-06T21:00:00+09:00" />
-<meta itemprop="wordCount" content="12">
+<meta itemprop="wordCount" content="13">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hugoを使ったブログ作成"/>
 <meta name="twitter:description" content="経緯 先日同僚の方にhugoで簡単なブログの作成と公開の方法を紹介してもらいました。
 せっかくなので作成
-やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 Host on GitHubを参考にGithub Action Workflowを使ってデプロイ  "/>
+やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 config.tomlファイルにpublishDir = &#39;docs&#39;を追加 hugoコマンドを実行し、静的ファイルを出力 リモートにプッシュ GithubのSettings&gt;Pages&gt;Sourceからデプロイするブランチにはを選択  "/>
 
 	
   </head>
@@ -137,7 +137,10 @@
 <ol>
 <li><a href="https://gohugo.io/getting-started/quick-start/">Quick Start</a>に沿ってローカル環境(Mac)を構築</li>
 <li>このブログ投稿をマークダウン形式で作成</li>
-<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Host on GitHub</a>を参考にGithub Action Workflowを使ってデプロイ</li>
+<li><code>config.toml</code>ファイルに<code>publishDir = 'docs'</code>を追加</li>
+<li><code>hugo</code>コマンドを実行し、静的ファイルを出力</li>
+<li>リモートにプッシュ</li>
+<li>GithubのSettings&gt;Pages&gt;Sourceからデプロイするブランチにはを選択</li>
 </ol>
 <ul class="pa0">
   

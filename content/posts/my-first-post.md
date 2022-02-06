@@ -1,7 +1,6 @@
 ---
 title: "hugoを使ったブログ作成"
 date: 2021-02-06T21:00:00+09:00
-draft: true
 ---
 ## 経緯
 
@@ -12,4 +11,7 @@ draft: true
 ## やったこと
 1. [Quick Start](https://gohugo.io/getting-started/quick-start/)に沿ってローカル環境(Mac)を構築
 2. このブログ投稿をマークダウン形式で作成
-3. [Host on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)を参考にGithub Action Workflowを使ってデプロイ
+3. `config.toml`ファイルに`publishDir = 'docs'`を追加
+4. `hugo`コマンドを実行し、静的ファイルを出力
+5. リモートにプッシュ
+5. GithubのSettings>Pages>Sourceからデプロイするブランチにはを選択
