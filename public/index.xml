@@ -15,7 +15,7 @@
       <guid>https://hibiki-horimi.github.io/hhorimi-tech-blog/posts/my-first-post/</guid>
       <description>経緯 先日同僚の方にhugoで簡単なブログの作成と公開の方法を紹介してもらいました。
 せっかくなので作成
-やったこと  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 config.tomlファイルにpublishDir = &#39;docs&#39;を追加 hugoコマンドを実行し、静的ファイルを出力 リモートにプッシュ GithubのSettings&amp;gt;Pages&amp;gt;Sourceからデプロイするブランチにはを選択  </description>
+手順  Quick Startに沿ってローカル環境(Mac)を構築 このブログ投稿をマークダウン形式で作成 config.tomlファイルにpublishDir = &#39;docs&#39;を追加 hugoコマンドを実行し、静的ファイルを出力 リモートにプッシュ GithubのSettings&amp;gt;Pages&amp;gt;Sourceからデプロイするブランチを選択  </description>
     </item>
     
   </channel>

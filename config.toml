@@ -1,7 +1,6 @@
 baseURL = 'https://hibiki-horimi.github.io/hhorimi-tech-blog'
 languageCode = 'en-us'
 title = 'hhorimiのブログ'
-publishDir = 'docs'
 theme = "ananke"
 canonifyurls = true
 [params]
